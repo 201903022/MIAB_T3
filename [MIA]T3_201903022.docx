@@ -1,0 +1,39 @@
+Tipo de estructuras que se utilizan dentro del sistema de archivos ext2
+
+Inodos: 
+- Son estructuras que contienen información acerca de los archivos y directorios que se encuentran en el sistema de archivos. 
+- Cada inodo contiene información acerca de un archivo o directorio en particular, como su tamaño, fecha de creación, fecha de modificación, etc.
+- Los inodos son identificados por un número único llamado número de inodo.
+- Los inodos contienen punteros a los bloques de datos que contienen la información del archivo o directorio.
+- Almacena los metadatos de un fichero: Tamaño, fecha de modificación, propietarios, permisos, etc. 
+
+Bloque de Carpetas: 
+- Son estructuras que contienen información acerca de los archivos y directorios que se encuentran en un directorio en particular.
+- Cada bloque de carpetas contiene entradas que indican el nombre de un archivo o directorio y su número de inodo.
+- Los bloques de carpetas son identificados por un número único llamado número de bloque de carpetas.
+- Los bloques de carpetas contienen punteros a los inodos de los archivos y directorios que contienen.
+
+Bloque de Apuntadores: 
+- Son estructuras que contienen punteros a otros bloques de datos.
+
+Bloque de Apuntadores Directos: 
+- Son bloques de apuntadores que contienen punteros a bloques de datos que contienen la información del archivo o directorio.
+
+Bloque de Apuntadores Indirectos: 
+- Son bloques de apuntadores que contienen punteros a otros bloques de apuntadores directos.
+
+Bitmap: 
+- Es una estructura que se utiliza para llevar un registro de los bloques de datos que están en uso y los que están libres.
+- Cada bit en el bitmap representa un bloque de datos en el sistema de archivos.
+- Si el bit está en 1, significa que el bloque de datos está en uso.
+- Si el bit está en 0, significa que el bloque de datos está libre.
+
+Bitmpa de bloques: 
+- Es un bitmap que se utiliza para llevar un registro de los bloques de datos que están en uso y los que están libres en el sistema de archivos.
+
+Bitmap de inodos: 
+- Es un bitmap que se utiliza para llevar un registro de los inodos que están en uso y los que están libres en el sistema de archivos.
+
+Superbloque: 
+- Es una estructura que contiene información acerca del sistema de archivos, como el tamaño del sistema de archivos, el número de bloques de datos, el número de inodos, etc.
+
