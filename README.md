@@ -1,18 +1,7 @@
 # MIAB_T3
-1)
+Problemas
 /home/nombre/nombre.txt
-/
-/home
-/nombre
-nombe.txt
-JONATHAN ALEXANDER SANCHEZ BARRIOS
-dentro de root del problema 1) 
+<br/>
 /descargas/carnet/carnet.txt
-"/"
-/descargas
-/descargas/carnet
-carnet.txt
-201903022
-
+<br/>
 /usuarios/Usuario/descargas
-/usuarios
